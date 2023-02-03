@@ -1,0 +1,6 @@
+create virtual environment: python3 -m venv venv
+activate enviroment: source venv/bin/activate(in mac)
+install pytest: pip install -U pytest
+install playwringth: pip install pytest-playwright
+Code generator: playwright codegen https://www.saucedemo.com/
+run first test: pytest /test/login/test_login.py
